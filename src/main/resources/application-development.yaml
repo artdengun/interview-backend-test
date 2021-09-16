@@ -1,0 +1,10 @@
+spring:
+  datasource:
+    driver-class-name: org.postgresql.Driver # Driver postgresql
+    username: iconbackendtest
+    password: iconbackendtest
+    url: jdbc:postgresql://localhost:5432/iconbackendtest #url database
+  jpa:
+    show-sql: true # untuk melihat log sql
+    hibernate:
+        ddl-auto: update # akan update ketika ada data baru
